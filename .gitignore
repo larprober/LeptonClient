@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+
+# Local toolchain (a full Gradle distribution lives here - 150MB, never commit)
+.tools/
+
+# Dev client game folder: worlds, screenshots, crash reports
+run/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+Thumbs.db
+.DS_Store

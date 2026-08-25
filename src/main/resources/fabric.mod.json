@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lepton",
+  "version": "${version}",
+  "name": "Lepton Client",
+  "description": "A singleplayer-only utility client for Minecraft. Every module is hard-gated to single-player worlds and refuses to run on servers or LAN-opened worlds.",
+  "authors": ["larprober"],
+  "license": "MIT",
+  "icon": "assets/lepton/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.lepton.Lepton"]
+  },
+  "mixins": ["lepton.mixins.json"],
+  "accessWidener": "lepton.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

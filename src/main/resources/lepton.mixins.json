@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.lepton.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockMixin",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "MouseMixin",
+    "PlayerEntityMixin",
+    "SimpleOptionMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
